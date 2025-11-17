@@ -213,7 +213,7 @@ export default function LojaGeek({ onBack }){
     <div className="loja-geek" style={{overflowX: 'hidden', width: '100%', maxWidth: '100vw'}}>
       <header className="header">
         <div className="logo" style={{display: 'flex', alignItems: 'center', gap: '12px'}}>
-          <img src="/src/imagens/cyberlife-icone2.png" alt="CyberLife Logo" style={{height: '80px', verticalAlign: 'middle'}} />
+          <img src="/cyberlife-icone2.png" alt="CyberLife Logo" style={{height: '80px', verticalAlign: 'middle'}} />
           <span style={{fontFamily: 'Rajdhani, sans-serif', fontWeight: 700, fontSize: '2rem', color: '#00d9ff', letterSpacing: '2px'}}>CyberLife</span>
         </div>
         <nav className="nav">
@@ -258,7 +258,7 @@ export default function LojaGeek({ onBack }){
           <div className="hexagon hex-3"></div>
         </div>
         <img 
-          src={"/src/imagens/cyberlife-icone2.png"}
+          src={"/cyberlife-icone2.png"}
           alt="CyberLife Ícone 2"
           className="hero-bg-animated"
         />
@@ -279,7 +279,7 @@ export default function LojaGeek({ onBack }){
 
       <section className={`offers-section ${isOffersVisible ? 'visible' : ''}`} ref={offersRef} style={{position: 'relative', overflow: 'hidden'}}>
         <img 
-          src={"/src/imagens/cyberlife-icone2.png"}
+          src={"/cyberlife-icone2.png"}
           alt="CyberLife Ícone"
           className="offers-bg-animated"
         />

@@ -2,16 +2,16 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const images = [
-  '/src/imagens/2.jpeg',
-  '/src/imagens/3.jpeg',
-  '/src/imagens/4.jpeg',
-  '/src/imagens/5.jpeg',
-  '/src/imagens/beyond.webp',
-  '/src/imagens/concret.webp',
-  '/src/imagens/fortnite.jpg',
-  '/src/imagens/hollow.webp',
-  '/src/imagens/RE2.jpg',
-  '/src/imagens/The-Last-of-Us-Part-II.jpg',
+  '/2.jpeg',
+  '/3.jpeg',
+  '/4.jpeg',
+  '/5.jpeg',
+  '/beyond.webp',
+  '/concret.webp',
+  '/fortnite.jpg',
+  '/hollow.webp',
+  '/RE2.jpg',
+  '/The-Last-of-Us-Part-II.jpg',
 ];
 
 export default function GameHouse() {
@@ -28,7 +28,7 @@ export default function GameHouse() {
     <div className="gamehouse-page" style={{ minHeight: '100vh', background: '#000', color: '#fff' }}>
       <header className="header" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '24px 48px', background: 'rgba(0,0,0,0.85)', borderBottom: '2px solid #00d9ff' }}>
         <div className="logo" style={{display: 'flex', alignItems: 'center', gap: '12px'}}>
-          <img src="/src/imagens/cyberlife-icone2.png" alt="CyberLife Logo" style={{height: '80px', verticalAlign: 'middle'}} />
+          <img src="/cyberlife-icone2.png" alt="CyberLife Logo" style={{height: '80px', verticalAlign: 'middle'}} />
           <span style={{fontFamily: 'Rajdhani, sans-serif', fontWeight: 700, fontSize: '2rem', color: '#00d9ff', letterSpacing: '2px'}}>CyberLife</span>
         </div>
         <nav className="nav">

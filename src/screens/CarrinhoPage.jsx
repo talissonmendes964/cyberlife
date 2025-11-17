@@ -52,7 +52,7 @@ export default function CarrinhoPage({ onBack }) {
     <div className="carrinho-page">
       <header className="header">
         <div className="logo" style={{display: 'flex', alignItems: 'center', gap: '12px'}}>
-          <img src="/src/imagens/cyberlife-icone2.png" alt="CyberLife Logo" style={{height: '80px', verticalAlign: 'middle'}} />
+          <img src="/cyberlife-icone2.png" alt="CyberLife Logo" style={{height: '80px', verticalAlign: 'middle'}} />
           <span style={{fontFamily: 'Rajdhani, sans-serif', fontWeight: 700, fontSize: '2rem', color: '#00d9ff', letterSpacing: '2px'}}>CyberLife</span>
         </div>
         <nav className="nav">

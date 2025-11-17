@@ -401,7 +401,7 @@ export default function StartScreen({ onStart }){
       ) : (
         <div className="login-card">
           <div className="login-header">
-            <img src="/src/imagens/cyberlife-icone2.png" alt="CyberLife" className="login-logo" />
+            <img src="/cyberlife-icone2.png" alt="CyberLife" className="login-logo" />
             <h1 className="login-title">CyberLife</h1>
             <p className="login-subtitle">
               {mode === 'login' && 'Entre na sua conta'}

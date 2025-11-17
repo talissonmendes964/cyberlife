@@ -299,7 +299,7 @@ export default function ProductDetailPage() {
             Voltar
           </button>
           <div className="logo">
-            <img src="/src/imagens/cyberlife-icone2.png" alt="CyberLife Logo" style={{height: '60px'}} />
+            <img src="/cyberlife-icone2.png" alt="CyberLife Logo" style={{height: '60px'}} />
             <span>CyberLife</span>
           </div>
           <button className="cart-button-header" onClick={() => navigate('/carrinho')}>
